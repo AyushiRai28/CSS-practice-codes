@@ -4,8 +4,8 @@ color:azure;}
 .heading{ color:blueviolet}
 
 button{ background-color: greenyellow; text-decoration: line-through; }
-p{text-align: center;
-text-decoration:pink wavy line-through;text-shadow:0cqi}
+#one{text-align: center;
+text-decoration:pink wavy underline;text-shadow:0cqi}
 
-
+#two{font-family:cursive;}
 /* work more with mdn css /*
