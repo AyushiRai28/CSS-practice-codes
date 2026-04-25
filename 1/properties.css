@@ -1,0 +1,11 @@
+/* asterisk is a universal selector, here it changes the whole foreground to blue */
+* {
+  color: blue;
+}
+
+/* h1{} is element selector */
+/* #myId{} is Id selector */
+/* .myClass{} is class selector */
+/* test-align : left, right, center
+
+
