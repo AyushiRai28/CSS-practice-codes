@@ -33,10 +33,13 @@ div{
     width : 100vw;}
 
 #box5{
+    height: 600px;
     position: fixed;
     top: 0;
-    left: 0;
-    width : 100vw;
+    left: 700px;
+    width : 800px ;
+    background-image: url("wlppr.jpg");
+    background-size: contain;
 }
 /* fixed= positioned relative to the bordeer, removed from the flow */
 
