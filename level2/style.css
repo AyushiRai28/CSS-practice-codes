@@ -1,0 +1,37 @@
+div{height: 20px;
+width: 100px;
+background-color: aqua;
+border-style: groove;
+border-width: 2px;
+border-color: blueviolet;
+border-radius:10px;}
+
+h1{height: 50px;
+width: 400px;
+background-color: cadetblue;
+border-width: 2px;
+border-color: brown;
+border-style: dotted;
+text-align: right;}
+/* it is  showm that text is aligned in the given height width and not thee whole page */
+
+/* border: width style color */
+p{border:3px dashed olive}
+
+button{ border-radius: 50%;}
+
+
+/* padding : content and border k beech ka distance 
+padding: 50px  ie. all top right bottom left in 50 px*
+paddinf : 1px 2px 3px 4px   ie. top right bottom left respectively */
+
+#one{height: 100px;
+width: 100px;
+background-color: rgb(0, 255, 106);
+border:5px solid rgb(100, 100, 6);
+border-radius:10px;
+padding-left: 50px;
+padding-top: 10px;}
+
+/* margin : distance between two boxes , border k bahar wali side(orange part) 
+applied same as padding */
