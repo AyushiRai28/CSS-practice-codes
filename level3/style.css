@@ -1,0 +1,48 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+
+#box1{position:static} /* defalut */
+
+
+#box2{
+    position:relative;
+    top:150px;
+    left: 20px;
+    z-index: 1;
+} /* element is relative to itself */
+/* its z-index is set positive so it overlaps block 3 , else box3 had overlap as its written later in the code */
+
+
+#box3{
+    position: absolute;
+    top:200px;
+} 
+/* positioned relative to its closest positioned ancestor. */
+
+
+#box4{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width : 100vw;}
+
+#box5{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width : 100vw;
+}
+/* fixed= positioned relative to the bordeer, removed from the flow */
+
+
+#box6{
+    position: sticky;
+    top: 0px;
+    left: 400px;}
+/* sticks when reaches its position    
