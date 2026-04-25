@@ -1,0 +1,15 @@
+div{height: 20px;
+width: 100px;
+background-color: aqua;
+border-style: groove;
+border-width: 2px;
+border-color: blueviolet;}
+
+h1{height: 50px;
+width: 400px;
+background-color: cadetblue;
+border-width: 2px;
+border-color: brown;
+border-style: dotted;
+text-align: right;}
+/* it is  showm that text is aligned in the given height width and not thee whole page /*

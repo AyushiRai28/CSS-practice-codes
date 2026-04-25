@@ -5,7 +5,7 @@ color:azure;}
 
 button{ background-color: greenyellow; text-decoration: line-through; }
 #one{text-align: center;
-text-decoration:pink wavy underline;text-shadow:0cqi}
+text-decoration:pink wavy underline;text-shadow:0cqi; font-size: 25px;}
 
-#two{font-family:cursive;}
+#two{font-family:cursive; font-size: small;}
 /* work more with mdn css /*
