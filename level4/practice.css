@@ -1,0 +1,37 @@
+
+*{color: aliceblue;}
+
+.navbar{
+    width: 1500px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+a{
+    text-decoration: none;}
+
+li{
+    list-style-type: none;
+    display: inline;}
+
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(68, 0, 255);
+}    
+
+@media (min-width:1000px)and (max-width:1500px){
+.inner{background-color: brown;}
+}
