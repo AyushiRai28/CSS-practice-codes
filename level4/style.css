@@ -1,0 +1,29 @@
+body{
+    text-align:center;
+}
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid purple;
+}
+
+
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+#box1{ background-color: aqua;}
+#box2{ background-color:darkorchid;}
+#box3{ background-color: rgb(216, 49, 102);}
+#box4{ background-color: rgb(220, 241, 34);}
+#box5{ background-color: rgb(53, 236, 50);}
