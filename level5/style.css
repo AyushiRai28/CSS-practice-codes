@@ -1,19 +1,42 @@
 div{
     height: 100px;
     width: 100px;
+   
     background-color: blanchedalmond;
     border: 2px solid brown;
-    transition-property: all;
+    position: absolute;
+    left: 100px;
+    top:100px;
+    /* transition-property: all;
     transition-duration: 2s;
-
+    transition-timing-function :  steps(3);
+    transition-delay: 0.5s; */
+    transition : all 2s ease-in 1s ;
+    /* transform: rotate(30deg); */
+    transform: translateX(200px);
+    /* transform: skew(90deg); */
+   
 }
 
 div:hover{
     background-color: aquamarine;
     color: crimson;
     font-size: 20px;
+    transform: scale(2,2);
+    transform: rotate(360deg);
+
 }
 
 div:active{
-    background-color:chartreuse;
+    background-color:rgb(85, 0, 255);
+
+}
+
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
+    border: 2px solid brown;
+    transform: rotate(45deg);
 }
