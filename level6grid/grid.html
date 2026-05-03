@@ -10,15 +10,17 @@
         .container{
             border:2px solid black;
             display:grid;
-            grid-template-columns:120px 100px;
-            grid-template-rows: 100px 100px 100px;
+            grid-template-columns:1fr 2fr 1fr;
+            /* grid-template-rows: 100px 100px 100px; */
+            row-gap: 10px;
+            column-gap: 30px;
 
         }
 
         .item{
             border:2px solid red;
             height: 50px;
-            width: 50px;
+            /* width: 50px; */
         }
 
         .item-4{
@@ -32,12 +34,12 @@
 </head>
 <body>
 
-    <div calss="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
     </div>
     
 
