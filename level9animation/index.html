@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projectile</title>
+
+    <style>
+        .main{
+            display: flex;
+            flex-direction: column;
+        
+            
+        }
+        .container{
+            position: relative;
+            height: 550px;
+            width: 1100px ;
+            margin:50px;
+            background-color: aqua;
+        }
+
+        .ball {
+            position: absolute;
+            bottom:0;
+            left:0;
+            height: 50px;
+            width: 50px;
+            background-color: chartreuse;
+            border-radius: 999px;
+            
+        }
+
+        .b1{
+            animation: projectile 0.5s infinite  ;
+
+        }
+
+       
+
+        .b2{
+            animation: projectile 0.5s infinite cubic-bezier(.4,0,.2,1);
+        }
+
+        .b3{
+            animation: projectileSmooth 0.25s infinite;  
+        }
+
+    
+
+
+
+        @keyframes projectile {
+                    0%   { transform: translate(0px, 0px); }
+                    10%  { transform: translate(50px, -100px); }
+                    20%  { transform: translate(100px, -200px); }
+                    30%  { transform: translate(150px, -300px); }
+                    40%  { transform: translate(200px, -400px); }
+                    50%  { transform: translate(250px, -500px); }
+                    60%  { transform: translate(300px, -400px); }
+                    70%  { transform: translate(350px, -300px); }
+                    80%  { transform: translate(400px, -200px); }
+                    90%  { transform: translate(450px, -100px); }
+                    100% { transform: translate(500px, 0px); }
+                }
+
+      
+           
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+        @keyframes projectileSmooth {
+                0%   { transform: translate(0px, 0px); }
+
+                10%  { transform: translate(50px, -150px); }
+                20%  { transform: translate(100px, -280px); }
+                30%  { transform: translate(150px, -380px); }
+                40%  { transform: translate(200px, -460px); }
+
+                50%  { transform: translate(250px,-500px);}
+
+                60%  { transform: translate(300px, -460px); }
+                70%  { transform: translate(350px, -380px); }
+                80%  { transform: translate(400px, -280px); }
+                90%  { transform: translate(450px, -150px); }
+
+                100% { transform: translate(500px, 0px); }
+ 
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+            <div class="container c1">
+                <div class="ball b1"></div>
+            </div>
+
+
+
+            <div class="container c2">
+                <div class="ball b2"></div>
+            </div>
+
+            <div class="container c3">
+                <div class="ball b3"></div>
+            </div>
+            
+            <div class="container c4">
+                <div class="ball b4"></div>
+            </div>
+
+    </div>
+</body>
+</html>
