@@ -12,15 +12,25 @@
             --seccolor:hotpink;
         }
 
+        ::selection{background-color: rgb(134, 249, 249);
+        color: brown;}
+
+        .box::first-letter{
+            color: chocolate;
+            font-size: 30px;
+        }
+
 
     </style>
 </head>
 <body>
-    
-      now at many places we can just set 
-      background-color: var(--color);
-      that would change the color to pink, and easy to change in future
 
+    <div class="box">
+        now at many places we can just set 
+        background-color: var(--color);
+        that would change the color to pink, and easy to change in future
+    
+    </div>
     
 
 </body>
