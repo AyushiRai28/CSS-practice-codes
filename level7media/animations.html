@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+
+        .container{
+            background-color: darkgoldenrod;
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box{
+            width: 34px;
+            height: 45px;
+            background-color: darkkhaki;
+            animation-name: ayushi;
+            animation-duration: 3s;
+        
+        }
+
+        @keyframes ayushi {
+            from{}
+            to{transform:translateX(100px);}
+        }
+            
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
